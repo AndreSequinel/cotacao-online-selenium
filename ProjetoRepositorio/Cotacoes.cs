@@ -1,27 +1,26 @@
 using System;
+using NUnit.Framework;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
+using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace ProjetoRepositorio
 {
-    public class BuscandoInformações
+    public class BuscandoInformações : DriverSetUp
     {
-        IWebDriver driver;
 
         [SetUp]
         public void Setup()
         {
-            new WebDriverManager.DriverManager().SetUpDriver(new FirefoxConfig());
-            driver = new FirefoxDriver();
-
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            driver.Manage().Window.Maximize();
+            DriverSetUp.inicializar();      
         }
 
         [Test]
         public void ProcurarValorDolar()
         {
+
             driver.Url = "https://www.google.com.br/?hl=pt-BR";
             driver.FindElement(By.Id("APjFqb")).SendKeys("Cotação dolar");
             driver.FindElement(By.Id("APjFqb")).SendKeys(Keys.Enter);
@@ -75,10 +74,10 @@ namespace ProjetoRepositorio
         [TearDown]
         public void FecharNavegador()
         {
-            driver.Close();
+            DriverSetUp.limpar();
         }
 
 
 
-     }
+    }
 }
