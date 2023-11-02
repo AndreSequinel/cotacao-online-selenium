@@ -5,44 +5,45 @@ using OpenQA.Selenium;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 using OpenQA.Selenium.Chrome;
+using ProjetoRepositorio.Fixture;
+using ProjetoRepositorio.PageObjects;
 
 namespace ProjetoRepositorio
 {
-    public class BuscandoInformações : DriverSetUp
-    {
+    public class BuscandoInformações : TestFixture
+    {  
 
-        [SetUp]
-        public void Setup()
+        public void Setup(TestFixture fixture)
         {
-            DriverSetUp.inicializar();      
+            driver = fixture.driver;                  
         }
 
         [Test]
         public void ProcurarValorDolar()
         {
+            var InfoPesquisaPo = new InformacoesPesquisaPO(driver);
 
-            driver.Url = "https://www.google.com.br/?hl=pt-BR";
-            driver.FindElement(By.Id("APjFqb")).SendKeys("Cotação dolar");
-            driver.FindElement(By.Id("APjFqb")).SendKeys(Keys.Enter);
-            IWebElement ValorDolar = driver.FindElement(By.CssSelector(".SwHCTb"));
+            InfoPesquisaPo.NavegarParaUrl();
+            InfoPesquisaPo.PreecherInformacoesPesquisaDolar();
+            
 
-            string ValorDolarText = ValorDolar.Text;
-
-            if (double.TryParse(ValorDolarText, out double ValorDolar2))
+            if (double.TryParse(InfoPesquisaPo.ValorDolarTexto, out double ValorDolar2))
             {
                 double ValorReferencia = 5.0;
 
                 if (ValorDolar2 > ValorReferencia)
                 {
-                    Console.WriteLine("O Dolar está alto. Seu valor é: " + ValorDolarText);
+                    Console.WriteLine("O Dolar está alto. Seu valor é: " + InfoPesquisaPo.ValorDolarTexto);
                 }
 
                 else
                 {
-                    Console.WriteLine("O dolar está acessível. Seu valor é: " + ValorDolarText);
+                    Console.WriteLine("O dolar está acessível. Seu valor é: " + InfoPesquisaPo.ValorDolarTexto);
 
                 }
             }
+
+            Dispose();
         }
 
         [Test]
@@ -68,16 +69,10 @@ namespace ProjetoRepositorio
                 {
                     Console.WriteLine("O Euro está acessível. Seu valor é: " + ValorEuroText);
                 }
-            }                            
+            }
+
+            Dispose();
         }
-
-        [TearDown]
-        public void FecharNavegador()
-        {
-            DriverSetUp.limpar();
-        }
-
-
 
     }
 }
