@@ -109,3 +109,4 @@ C:\Users\andre\OneDrive\Área de Trabalho\André\ProjetoExemploRepositorio\Proje
 C:\Users\andre\OneDrive\Área de Trabalho\André\ProjetoExemploRepositorio\ProjetoRepositorio\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\andre\OneDrive\Área de Trabalho\André\ProjetoExemploRepositorio\ProjetoRepositorio\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\andre\OneDrive\Área de Trabalho\André\ProjetoExemploRepositorio\ProjetoRepositorio\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\andre\OneDrive\Área de Trabalho\André\ProjetoExemploRepositorio\ProjetoRepositorio\obj\Debug\net7.0\ProjetoRepositorio.sourcelink.json

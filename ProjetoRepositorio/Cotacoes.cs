@@ -49,25 +49,23 @@ namespace ProjetoRepositorio
         [Test]
         public void ProcurarValorEuro()
         {
-            driver.Url = "https://www.google.com.br/?hl=pt-BR";
-            driver.FindElement(By.Id("APjFqb")).SendKeys("Cotação Euro");
-            driver.FindElement(By.Id("APjFqb")).SendKeys(Keys.Enter);
-            IWebElement ValorEuro = driver.FindElement(By.CssSelector(".SwHCTb"));
+            var InfoPesquisaPO = new InformacoesPesquisaPO(driver);
 
-            string ValorEuroText = ValorEuro.Text;
+            InfoPesquisaPO.NavegarParaUrl();
+            InfoPesquisaPO.PreecherInformacoesPesquisaEuro();
 
-            if (double.TryParse(ValorEuroText, out double ValorEuro2))
+            if (double.TryParse(InfoPesquisaPO.ValorEuroTexto, out double ValorEuro2))
             {
                 double ValorReferencia = 5.0;
 
                 if (ValorEuro2 > ValorReferencia)
                 {
-                    Console.WriteLine("O Euro está alto. Seu valor é: " + ValorEuroText);
+                    Console.WriteLine("O Euro está alto. Seu valor é: " + InfoPesquisaPO.ValorEuroTexto);
                 }
 
                 else
                 {
-                    Console.WriteLine("O Euro está acessível. Seu valor é: " + ValorEuroText);
+                    Console.WriteLine("O Euro está acessível. Seu valor é: " + InfoPesquisaPO.ValorEuroTexto);
                 }
             }
 

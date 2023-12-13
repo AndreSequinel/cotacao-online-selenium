@@ -8,8 +8,10 @@ namespace ProjetoRepositorio.PageObjects
 
         private By ByBarraPesquisa;
         private By ByValorDolar;
+        private By ByValorEuro;
 
         public string ValorDolarTexto => driver.FindElement(ByValorDolar).Text;
+        public string ValorEuroTexto => driver.FindElement(ByValorEuro).Text;
 
         public InformacoesPesquisaPO(IWebDriver driver)
         {
@@ -17,6 +19,7 @@ namespace ProjetoRepositorio.PageObjects
 
             ByBarraPesquisa = By.Id("APjFqb");
             ByValorDolar = By.CssSelector("span.DFlfde.SwHCTb[data-precision]");
+            ByValorEuro = By.CssSelector(".SwHCTb");
 
         }
 
@@ -28,6 +31,12 @@ namespace ProjetoRepositorio.PageObjects
         public void PreecherInformacoesPesquisaDolar()
         {
             driver.FindElement(ByBarraPesquisa).SendKeys("Cotação dolar");
+            driver.FindElement(ByBarraPesquisa).SendKeys(Keys.Enter);
+        }
+
+        public void PreecherInformacoesPesquisaEuro()
+        {
+            driver.FindElement(ByBarraPesquisa).SendKeys("Cotação euro");
             driver.FindElement(ByBarraPesquisa).SendKeys(Keys.Enter);
         }
     }
