@@ -14,13 +14,13 @@ namespace ProjetoRepositorio.Fixture
             new WebDriverManager.DriverManager().SetUpDriver(new FirefoxConfig());
             driver = new FirefoxDriver();
 
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
             driver.Manage().Window.Maximize();
-        } 
+        }
 
         public void Dispose()
         {
-            driver.Quit();
+            driver.Close();
         }
 
     }

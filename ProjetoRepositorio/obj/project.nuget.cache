@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I9fi1kMYrnlaBEXEMrbmJRQKtarmLzyHrSBC/0XDlG5C52NZt45L4WQwsxiCgE7f3uEY/pqoEzPZ4/6oXFIljA==",
+  "dgSpecHash": "VQY+RGhql0hZ1VMx1S4ayHmJAJK31oNr5KxCzsbOX19H2/WQXEceSP0BMlj1ORtrhzKwOvk8z0pt7DED5MbvTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Área de Trabalho\\André\\ProjetoExemploRepositorio\\ProjetoRepositorio\\ProjetoRepositorio.csproj",
+  "projectFilePath": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\TestesAutDansales.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

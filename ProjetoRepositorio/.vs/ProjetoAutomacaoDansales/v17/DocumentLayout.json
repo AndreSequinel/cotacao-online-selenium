@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|d:\\testesautomatizados_dansales\\primeitoprojetoselenium\\projetorepositorio\\tests\\aoacessatelalicitacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|solutionrelative:tests\\aoacessatelalicitacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|d:\\testesautomatizados_dansales\\primeitoprojetoselenium\\projetorepositorio\\pageobjects\\tela_licitacoes_dansales_po.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|solutionrelative:pageobjects\\tela_licitacoes_dansales_po.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|d:\\testesautomatizados_dansales\\primeitoprojetoselenium\\projetorepositorio\\fixture\\testfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|solutionrelative:fixture\\testfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|d:\\testesautomatizados_dansales\\primeitoprojetoselenium\\projetorepositorio\\pageobjects\\tela_selecao_bu_po.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|solutionrelative:pageobjects\\tela_selecao_bu_po.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|d:\\testesautomatizados_dansales\\primeitoprojetoselenium\\projetorepositorio\\tests\\aoacessarteladepedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64EDE3C4-EB44-4D85-928A-7F6C37E42B2B}|TestesAutDansales.csproj|solutionrelative:tests\\aoacessarteladepedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 219,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AoAcessaTelaLicitacoes.cs",
+              "DocumentMoniker": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\Tests\\AoAcessaTelaLicitacoes.cs",
+              "RelativeDocumentMoniker": "Tests\\AoAcessaTelaLicitacoes.cs",
+              "ToolTip": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\Tests\\AoAcessaTelaLicitacoes.cs",
+              "RelativeToolTip": "Tests\\AoAcessaTelaLicitacoes.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:39:03.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tela_licitacoes_dansales_PO.cs",
+              "DocumentMoniker": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\PageObjects\\tela_licitacoes_dansales_PO.cs",
+              "RelativeDocumentMoniker": "PageObjects\\tela_licitacoes_dansales_PO.cs",
+              "ToolTip": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\PageObjects\\tela_licitacoes_dansales_PO.cs",
+              "RelativeToolTip": "PageObjects\\tela_licitacoes_dansales_PO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:25:18.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestFixture.cs",
+              "DocumentMoniker": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\Fixture\\TestFixture.cs",
+              "RelativeDocumentMoniker": "Fixture\\TestFixture.cs",
+              "ToolTip": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\Fixture\\TestFixture.cs",
+              "RelativeToolTip": "Fixture\\TestFixture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T20:50:13.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tela_selecao_bu_PO.cs",
+              "DocumentMoniker": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\PageObjects\\tela_selecao_bu_PO.cs",
+              "RelativeDocumentMoniker": "PageObjects\\tela_selecao_bu_PO.cs",
+              "ToolTip": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\PageObjects\\tela_selecao_bu_PO.cs",
+              "RelativeToolTip": "PageObjects\\tela_selecao_bu_PO.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwDMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T13:06:08.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AoAcessarTelaDePedidos.cs",
+              "DocumentMoniker": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\Tests\\AoAcessarTelaDePedidos.cs",
+              "RelativeDocumentMoniker": "Tests\\AoAcessarTelaDePedidos.cs",
+              "ToolTip": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\Tests\\AoAcessarTelaDePedidos.cs",
+              "RelativeToolTip": "Tests\\AoAcessarTelaDePedidos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:46:49.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
