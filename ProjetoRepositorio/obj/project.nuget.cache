@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vlf8w+0RCEmnRx5e3oAbYFCL0D5HpcB0C7VETsSE/mtJWbdoZghPcHeK0LCLXcPW0Q5JhXOLSQHfSv2rXXAkEA==",
+  "dgSpecHash": "sKFJsPLYtPE=",
   "success": true,
-  "projectFilePath": "D:\\TestesAutomatizados_DanSales\\PrimeitoProjetoSelenium\\ProjetoRepositorio\\ProjetoRepositorio.csproj",
+  "projectFilePath": "C:\\Projetos\\PrimeiroProjetoSelenium\\ProjetoRepositorio\\ProjetoRepositorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
@@ -23,6 +23,7 @@
     "C:\\Users\\andre\\.nuget\\packages\\selenium.webdriver\\4.14.0\\selenium.webdriver.4.14.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\selenium.webdriver.chromedriver\\118.0.5993.7000\\selenium.webdriver.chromedriver.118.0.5993.7000.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\selenium.webdriver.geckodriver.win64\\0.33.0\\selenium.webdriver.geckodriver.win64.0.33.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",

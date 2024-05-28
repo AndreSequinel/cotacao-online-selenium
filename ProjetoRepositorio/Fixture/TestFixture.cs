@@ -4,7 +4,8 @@ using WebDriverManager.DriverConfigs.Impl;
 
 namespace ProjetoRepositorio.Fixture
 {
-    public class TestFixture : IDisposable
+    [TestFixture]
+    public class TestFixture
     {
         public IWebDriver driver;
 
@@ -16,11 +17,12 @@ namespace ProjetoRepositorio.Fixture
 
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
-        } 
+        }
 
+        [TearDown]
         public void Dispose()
         {
-            driver.Quit();
+            driver.Dispose();
         }
 
     }
