@@ -40,6 +40,4 @@ jobs:
 
     # Run Tests
     - name: Run Tests
-      run: dotnet test ${{ env.Test_Project_Path }}
-      env:
-        Test_Project_Path: C:\Projetos\PrimeiroProjetoSelenium\ProjetoRepositorio\ProjetoRepositorio.csproj
+      run: dotnet test ./ProjetoRepositorio/ProjetoRepositorio.csproj
