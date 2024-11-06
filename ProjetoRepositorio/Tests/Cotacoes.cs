@@ -21,6 +21,7 @@ public class BuscandoInformações : TestFixture
     [Test, Order(1)]
     public void ProcurarValorDolar()
     {
+        //TEST WORKFLOW
         var InfoPesquisaPo = new InformacoesPesquisaPO(driver);
 
         InfoPesquisaPo.NavegarParaUrl();

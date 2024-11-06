@@ -26,15 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -66,8 +62,7 @@
               "RelativeToolTip": "Utils\\MasterDataUtils.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:30:57.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T22:30:57.439Z"
             },
             {
               "$type": "Document",
@@ -79,8 +74,7 @@
               "RelativeToolTip": "PageObjects\\InformacoesPesquisaPO.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAowBoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T17:57:04.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T17:57:04.291Z"
             },
             {
               "$type": "Document",
@@ -90,7 +84,7 @@
               "RelativeDocumentMoniker": "Tests\\Cotacoes.cs",
               "ToolTip": "C:\\Projetos\\PrimeiroProjetoSelenium\\ProjetoRepositorio\\Tests\\Cotacoes.cs",
               "RelativeToolTip": "Tests\\Cotacoes.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wC8AAAAFAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T17:57:04.474Z",
               "EditorCaption": ""
@@ -105,8 +99,17 @@
               "RelativeToolTip": "Fixture\\TestFixture.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T17:57:04.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T17:57:04.471Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 219,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
