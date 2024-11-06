@@ -31,13 +31,6 @@ jobs:
     - name: Setup MSBuild.exe
       uses: microsoft/setup-msbuild@v2
 
-    # Run npm install and build
-    - name: Install Dependencies
-      run: npm install
-
-    - name: Build Project
-      run: npm run build
-
     # Run Tests
     - name: Run Tests
       run: dotnet test ./ProjetoRepositorio/ProjetoRepositorio.csproj
